@@ -206,3 +206,54 @@ nav a{
     color:#d4af37;
     letter-spacing:2px;
 }
+/* ABOUT */
+
+.about-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.about-image{
+    flex:1;
+}
+
+.about-image img{
+    width:100%;
+    max-width:520px;
+    border-radius:20px;
+    display:block;
+    box-shadow:0 20px 40px rgba(0,0,0,.5);
+}
+
+.about-content{
+    flex:1;
+}
+
+.about-content h2{
+    font-size:48px;
+    color:#d4af37;
+    margin-bottom:20px;
+}
+
+.about-content p{
+    font-size:18px;
+    color:#d0d0d0;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+@media(max-width:900px){
+
+.about-container{
+    flex-direction:column;
+    text-align:center;
+}
+
+.about-image img{
+    max-width:100%;
+}
+
+}
