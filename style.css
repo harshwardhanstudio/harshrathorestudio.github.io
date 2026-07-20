@@ -25,10 +25,19 @@ overflow-x:hidden;
 
 }
 
-img{
+.portfolio-card img{
 
-max-width:100%;
+width:100%;
+
+height:260px;
+
+object-fit:cover;
+
 display:block;
+
+transition:.5s;
+
+border-radius:20px;
 
 }
 
