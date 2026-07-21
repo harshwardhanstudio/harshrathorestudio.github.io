@@ -807,6 +807,21 @@ color:#cfcfcf;
 line-height:1.8;
 
 }
+.contact-card a{
+    color:#fff !important;
+    text-decoration:none;
+    background:none !important;
+    padding:0 !important;
+    margin:0;
+    border:none !important;
+    border-radius:0 !important;
+    display:inline !important;
+    box-shadow:none !important;
+}
+
+.contact-card a:hover{
+    color:var(--gold);
+}
 
 /*====================================
             FOOTER
