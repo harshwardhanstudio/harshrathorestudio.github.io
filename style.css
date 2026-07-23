@@ -52,10 +52,6 @@ body{
 }
 /* ===== Premium Sparkle Background ===== */
 
-body{
-    background:#060606;
-    position:relative;
-}
 
 .animated-bg{
     position:fixed;
@@ -113,10 +109,6 @@ body{
     transform:translate(-50%,-50%);
 }
 
-body{
-   background:transparent;
-    position:relative;
-}
 img{
 
     max-width:100%;
