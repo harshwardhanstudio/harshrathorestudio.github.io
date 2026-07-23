@@ -324,3 +324,35 @@ document.addEventListener("keydown", (e) => {
         document.body.style.overflow = "auto";
     }
 });
+// Hero Animation
+
+window.addEventListener("load",()=>{
+
+gsap.from(".hero h5",{
+y:30,
+opacity:0,
+duration:1
+});
+
+gsap.from(".hero-title",{
+y:50,
+opacity:0,
+duration:1.2,
+delay:.2
+});
+
+gsap.from(".hero p",{
+y:30,
+opacity:0,
+duration:1,
+delay:.5
+});
+
+gsap.from(".hero-buttons",{
+y:30,
+opacity:0,
+duration:1,
+delay:.8
+});
+
+});
