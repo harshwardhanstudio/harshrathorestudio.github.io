@@ -281,9 +281,7 @@ faqItems.forEach(item => {
 =========================================*/
 
 const revealElements = document.querySelectorAll(
-
-".section,.service-card,.portfolio-item,.why-card,.process-card,.testimonial-card,.contact-card"
-
+".section,.service-card,.portfolio-item,.why-card,.process-card,.testimonial-card,.contact-card,section"
 );
 
 function revealOnScroll() {
