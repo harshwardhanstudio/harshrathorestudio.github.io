@@ -697,8 +697,17 @@ PORTFOLIO
 
 .portfolio-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:30px;
+    grid-template-columns:repeat(6,1fr);
+    gap:15px;
+    max-width:1700px;
+    margin:auto;
+}
+
+.portfolio-item img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:16px;
 }
 
 .portfolio-item{
