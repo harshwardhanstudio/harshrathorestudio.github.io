@@ -217,7 +217,17 @@ filterButtons.forEach(button => {
             ) {
 
                 item.style.display = "block";
+if(filter === "all"){
 
+    item.style.width = "";
+    item.style.gridColumn = "span 1";
+
+}else{
+
+    item.style.width = "100%";
+    item.style.gridColumn = "1 / -1";
+
+}
                 setTimeout(() => {
 
                     item.style.opacity = "1";
